@@ -1,0 +1,36 @@
+{
+  "name": "react-hook-store",
+  "version": "1.0.0",
+  "description": "global store program",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grewer/react-hook-store.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "global",
+    "store",
+    "redux"
+  ],
+  "author": "Grewer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grewer/react-hook-store/issues"
+  },
+  "homepage": "https://github.com/Grewer/react-hook-store#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
