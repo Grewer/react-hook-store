@@ -1,8 +1,8 @@
 {
-  "name": "react-hook-store",
-  "version": "1.0.0",
+  "name": "react-hooks-redux-store",
+  "version": "1.0.1",
   "description": "global store program",
-  "main": "index.ts",
+  "main": "dist/reactHookStore.js",
   "scripts": {
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"

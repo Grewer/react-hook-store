@@ -1,1 +1,1 @@
-## reactHookStore
+## react-hooks-redux-store
