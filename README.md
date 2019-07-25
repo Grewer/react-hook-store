@@ -15,6 +15,8 @@ yarn add react-hooks-redux-store
 ### create
 store.ts:
 ```
+import Modal from 'react-hooks-redux-store';
+
 const countReducer = function (state = 0, action) {
     switch (action.type) {
       case "ADD":
@@ -27,7 +29,7 @@ const countReducer = function (state = 0, action) {
 
 const reducers = combineReducers({
   countReducer,
-  // omit others reduer
+  // omit other reduers
 });
 
 const modal = new Modal(reducers)
