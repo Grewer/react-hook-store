@@ -48,4 +48,27 @@ function app(){
 }
 ```
 
-// promiseMiddleware already exists, and the doc is added later.
+#### middleware
+
+```
+import promiseMiddleware from "react-hooks-redux-store/lib/promiseMiddleware";
+// The promiseMiddleware acts like redux-promise
+
+
+
+const reducers = combineReducers({
+  countReducer,
+  // omit other reduers
+});
+
+
+const modal = new Modal(reducers, promiseMiddleware)
+
+export const useModal = modal.useModal
+```
+use:
+```
+dispatch(createAction("ADD", async () => await Get(url))())
+```
+
+
